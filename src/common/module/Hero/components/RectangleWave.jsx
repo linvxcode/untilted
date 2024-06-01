@@ -1,8 +1,10 @@
 "use client";
+import { useMobile } from "@/common/hooks/useMobile";
 import { motion } from "framer-motion";
 import React from "react";
 
 export default function RectangleWave() {
+  const isMobile = useMobile();
   return (
     <div className="w-full absolute inset-0 lg:top-[-150px] ] z-[-99]">
       <div>
@@ -16,7 +18,7 @@ export default function RectangleWave() {
         >
           <motion.path
             style={{
-                scale: 5
+                scale: isMobile ? 1 : 5
             }}
             animate={{
               scale: 1,
@@ -32,7 +34,7 @@ export default function RectangleWave() {
           />
           <motion.path
             style={{
-                scale: 5
+              scale: isMobile ? 1 : 5
             }}
             animate={{
               scale: 1,
@@ -50,7 +52,7 @@ export default function RectangleWave() {
           />
           <motion.path
             style={{
-                scale: 4
+              scale: isMobile ? 1 : 4
             }}
             animate={{
               scale: 1,
