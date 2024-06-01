@@ -4,7 +4,7 @@ import { CiStar } from "react-icons/ci";
 
 export default function Ratings() {
   return (
-    <div className="flex items-center">
+    <div className="flex flex-row flex-wrap items-center">
       <div className="w-[40px] h-[40px] border-[4px] border-blue-800  object-cover relative overflow-hidden rounded-full  outline outline-[1px] outline-white">
         <Image
           loading="lazy"

@@ -18,7 +18,7 @@ export default function RectangleWave() {
         >
           <motion.path
             style={{
-                scale: isMobile ? 1 : 5
+                scale:  5
             }}
             animate={{
               scale: 1,
@@ -34,7 +34,7 @@ export default function RectangleWave() {
           />
           <motion.path
             style={{
-              scale: isMobile ? 1 : 5
+              scale:  5
             }}
             animate={{
               scale: 1,
@@ -52,7 +52,7 @@ export default function RectangleWave() {
           />
           <motion.path
             style={{
-              scale: isMobile ? 1 : 4
+              scale:  4
             }}
             animate={{
               scale: 1,

@@ -3,7 +3,7 @@ import React from "react";
 import { translateInViewVariant } from "./Transition";
 import { motion } from "framer-motion";
 
-const ComponentTransition = ({ children,className, delay,style}) => {
+const ComponentTransition = ({ children,className, delay,style, ...other}) => {
   return (
     <motion.div
       initial="initial"
@@ -17,6 +17,7 @@ const ComponentTransition = ({ children,className, delay,style}) => {
       className={className}
       viewport={{once: true}}
       style={style}
+      {...other}
     >
       {children}
     </motion.div>

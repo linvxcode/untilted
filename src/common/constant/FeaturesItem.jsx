@@ -4,7 +4,7 @@ import { MdAnimation,MdOutlineInterests  } from "react-icons/md";
 import { SiAudiomack } from "react-icons/si";
 import { SiRarible,SiOpensea,SiLinuxfoundation,SiOrigin    } from "react-icons/si";
 import { CiTablets1 } from "react-icons/ci";
-
+import { CiCloudOn } from "react-icons/ci";
 
 const Bid = (
   <>
@@ -202,3 +202,23 @@ export const Platformitem = [
   },
  
 ];
+
+const size = 30
+
+export const FeatureCardItem = [
+  {
+    title: 'Empowerment through Knowledge',
+    desc: "Our comprehensive resources and expert guidance ensure you understand the intricacies of the crypto market. We provide you with the tools and education needed to make informed decisions confidently.",
+    icon: <CiCloudOn size={size} />,
+  },
+  {
+    title: 'Empowerment through Knowledge',
+    desc: "Our comprehensive resources and expert guidance ensure you understand the intricacies of the crypto market. We provide you with the tools and education needed to make informed decisions confidently.",
+    icon: <CiCloudOn size={size} />,
+  },
+  {
+    title: 'Empowerment through Knowledge',
+    desc: "Our comprehensive resources and expert guidance ensure you understand the intricacies of the crypto market. We provide you with the tools and education needed to make informed decisions confidently.",
+    icon: <CiCloudOn size={size} />,
+  },
+]

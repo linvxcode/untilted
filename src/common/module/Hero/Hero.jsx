@@ -24,9 +24,9 @@ export default function Hero() {
 
       <div className="max-lg:hidden glowbg w-[100%] md:w-[300px] h-[200px] absolute z-[-99] top-[200px] left-[-100px]"></div>
 
-      <div className="w-full gap-5 flex lg:flex-row flex-col justify-center mt-20 ">
+      <div className="w-full gap-5 flex lg:flex-row flex-col justify-start mt-20 ">
         <div className="w-full  z-[9] flex-col py-5 h-auto flex  rounded-2xl px-5">
-          <ComponentTransition delay={1} className="w-full flex lg:flex-row flex-col justify-start items-center gap-2">
+          <ComponentTransition delay={2} className="w-full flex lg:flex-row flex-col justify-start items-start gap-2">
             <div className="bg-[#979797] rounded-full px-1 py-1 flex gap-1 items-center">
               <div className="bg-[#E8E8E8] rounded-full px-2">
                 <h1>New</h1>
