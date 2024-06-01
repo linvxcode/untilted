@@ -212,13 +212,13 @@ export const FeatureCardItem = [
     icon: <CiCloudOn size={size} />,
   },
   {
-    title: 'Empowerment through Knowledge',
-    desc: "Our comprehensive resources and expert guidance ensure you understand the intricacies of the crypto market. We provide you with the tools and education needed to make informed decisions confidently.",
+    title: 'Innovative Technology',
+    desc: "Leverage cutting-edge technology that simplifies and secures your crypto investments. Our platform is designed to offer seamless, user-friendly experiences, whether you're a seasoned investor or just starting.",
     icon: <CiCloudOn size={size} />,
   },
   {
-    title: 'Empowerment through Knowledge',
-    desc: "Our comprehensive resources and expert guidance ensure you understand the intricacies of the crypto market. We provide you with the tools and education needed to make informed decisions confidently.",
+    title: 'Growth and Potential',
+    desc: "The crypto market is brimming with opportunities for exponential growth. Our strategic insights and robust analytics help you identify and capitalize on these opportunities, maximizing your returns and financial growth.",
     icon: <CiCloudOn size={size} />,
   },
 ]
