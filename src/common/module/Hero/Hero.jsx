@@ -19,7 +19,7 @@ export default function Hero() {
   return (
     <div className="h-auto max-w-[1500px] relative flex flex-col justify-start px-5 lg:px-10  w-full overflow-hidden ">
       <RectangleWave />
-      <div className=" glowbg w-[100%] md:w-[300px] h-[200px] absolute z-[-99] top-[200px] left-[-100px]"></div>
+      <div className="max-lg:hidden glowbg w-[100%] md:w-[300px] h-[200px] absolute z-[-99] top-[200px] left-[-100px]"></div>
 
       <div className="w-full gap-5 flex lg:flex-row flex-col justify-center mt-20 ">
         <div className="w-full  z-[9] flex-col py-5 h-auto flex  rounded-2xl px-5">
