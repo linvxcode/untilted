@@ -6,7 +6,7 @@ import React from "react";
 export default function RectangleWave() {
   const isMobile = useMobile();
   return (
-    <div className="w-full absolute inset-0 lg:top-[-150px] ] z-[-99]">
+    <div className="w-full absolute inset-0 lg:top-[-150px] ] z-[-99] max-lg:hidden">
       <div>
         <motion.svg
           width="100%"
