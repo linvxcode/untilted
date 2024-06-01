@@ -10,6 +10,7 @@ import SliderTechLeader from "./components/SliderTechLeader";
 import { motion } from "framer-motion";
 import RectangleWave from "./components/RectangleWave";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
+import TopGradient from "./components/TopGradient";
 
 const FusionApp = dynamic(() => import("./components/FusionApp"), {
   ssr: false,
@@ -18,7 +19,9 @@ const FusionApp = dynamic(() => import("./components/FusionApp"), {
 export default function Hero() {
   return (
     <div className="h-auto max-w-[1500px] relative flex flex-col justify-start px-5 lg:px-10  w-full overflow-hidden ">
+      {/* <TopGradient /> */}
       <RectangleWave />
+
       <div className="max-lg:hidden glowbg w-[100%] md:w-[300px] h-[200px] absolute z-[-99] top-[200px] left-[-100px]"></div>
 
       <div className="w-full gap-5 flex lg:flex-row flex-col justify-center mt-20 ">
@@ -49,7 +52,7 @@ export default function Hero() {
             title="We've heard that exceeding our customers' expectations is beyond reach. Instead of reinventing the wheel, we've chosen to enhance it."
             textColor="normal"
           />
-          <div className="w-full relative gap-5 flex justify-start items-center">
+          <ComponentTransition delay={1.5} className="w-full relative gap-5 flex justify-start items-center">
             <div className=" relative">
               <Image
                 className="w-[150px] h-auto "
@@ -70,7 +73,7 @@ export default function Hero() {
                 priority
               />
             </div>
-          </div>
+          </ComponentTransition>
         </div>
         <div className="w-full flex justify-center items-center">
           <motion.div

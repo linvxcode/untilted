@@ -23,7 +23,7 @@ export default function CardFeature() {
               alt="Image"
               height={400}
               width={400}
-              priority
+              loading="lazy"
             />
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function CardFeature() {
               alt="Image"
               height={400}
               width={400}
-              priority
+              loading="lazy"
             />
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function CardFeature() {
               alt="Image"
               height={400}
               width={400}
-              priority
+              loading="lazy"
             />
           </div>
         </div>

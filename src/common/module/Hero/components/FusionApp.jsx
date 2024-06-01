@@ -23,7 +23,9 @@ export default function FusionApp() {
           // rotateY: RotateY,
         }}
       >
-        <div className="h-[600px] w-full relative ">
+        <motion.div className="h-[600px] w-full relative "
+        
+        >
           <Image
             className="w-full h-auto rounded-2xl absolute inset-0 left-[90px] top-[90px] scale-[1.3]"
             src="/Aset/UntiltedDashboard.png"
@@ -32,7 +34,7 @@ export default function FusionApp() {
             width={900}
             priority
           />
-        </div>
+        </motion.div>
         {/* <Image
           className="w-[1440px] h-[1024px] object-contain relative"
           src="/Aset/UntiltedDash.png"

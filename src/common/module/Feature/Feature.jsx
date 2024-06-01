@@ -31,8 +31,8 @@ export default function Feature() {
           <div className="w-full">
             <CardFeature />
             {/* <Card item={FeaturesItem} /> */}
-            <CardVariantBig />
-            <CardIcon item={HowItsWorkItem} />
+            {/* <CardVariantBig /> */}
+            {/* <CardIcon item={HowItsWorkItem} /> */}
           </div>
         </div>
       </div>
