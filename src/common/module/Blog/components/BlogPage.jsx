@@ -9,18 +9,25 @@ import LatestCard from "./LatestCard";
 import BlogCard from "./BlogCard";
 import { BlogItem } from "@/common/constant/BlogItem";
 import CardEndOffer from "@/common/component/element/CardEndOffer";
+import SearchButton from "@/common/component/element/SearchButton";
+import Section from "@/common/component/element/Section";
 
 export default function BlogPage() {
   return (
     <div className="h-auto max-w-[1500px] flex flex-col justify-center px-5 lg:px-10 mb-20 w-full mt-28 md:mt-32 overflow-hidden">
       <div className="w-full relative z-[9]">
         <div className="w-full relative items-start gap-5 mb-10 justify-center grid lg:grid-cols-2 ">
-          <div className="flex flex-col w-full items-start justify-start">
+        <div className="flex flex-col w-full items-start justify-start">
+        <Section
+          className='!justify-start !items-start !pb-5'
+          label='Blog'
+          />
             <HeroText texts="Latest Articles" className="" />
             <H1
               title="believe that impactful design has the potential to create a significant impact"
               className="text-lg lg:text-xl  text-[#7D7F78] !px-0 !tracking-[-0.04em]"
             />
+            <SearchButton />
           </div>
           <div className="w-full flex flex-col justify-center py-4 items-start">
             <ComponentTransition className="w-full flex">

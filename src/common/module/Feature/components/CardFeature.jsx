@@ -132,10 +132,18 @@ export default function CardFeature() {
             once: true,
           }}
         >
-          <div className="w-full h-auto lg:h-[600px] bg-[#202020] px-5 rounded-3xl py-10 relative flex flex-col justify-center items-center overflow-hidden">
+          <div className="w-full h-auto lg:h-[600px] px-5 rounded-3xl py-10 relative flex flex-col justify-center items-center overflow-hidden">
+            <Image
+              className="w-full h-[800px] object-cover absolute inset-0"
+              src="https://images.unsplash.com/photo-1621799754526-a0d52c49fad5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Image"
+              height={400}
+              width={400}
+              priority
+            />
             <Image
               className="w-full h-auto object-cover relative top-0"
-              src="/Aset/Graph.svg"
+              src="/chart-sales.svg"
               alt="Image"
               height={400}
               width={400}

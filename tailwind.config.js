@@ -18,9 +18,14 @@ module.exports = {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-30%)' },
         },
+        rotate: {
+          "0%": { transform: "rotate(0deg) scale(10)" },
+          "100%": { transform: "rotate(-360deg) scale(10)" },
+        },
       },
     },
     animation: {
+      rotate: "rotate 10s linear infinite",
       'looping-tag': 'loop 20s linear infinite',
     },
   },

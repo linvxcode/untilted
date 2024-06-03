@@ -64,7 +64,7 @@ export default function AboutPage() {
               </h1>
             </div>
 
-            <div className="h-[308px] bg-[#E8E8E8] px-5 py-10 rounded-3xl relative overflow-hidden">
+            <div className="h-[308px]  px-5 py-10 rounded-3xl relative overflow-hidden">
               <div className="w-full pb-5">
                 <Image
                   className="w-[50px] h-auto "
@@ -77,8 +77,8 @@ export default function AboutPage() {
               </div>
               <div className="absolute inset-0 w-full z-[-9]">
                 <Image
-                  className="w-full h-[350px] blur-md"
-                  src="https://images.unsplash.com/photo-1644219037686-b2ce2b0720a7?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  className="w-full h-[350px] opacity-90 "
+                  src="https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Fusion"
                   height={400}
                   width={400}
@@ -123,7 +123,7 @@ export default function AboutPage() {
         </div>
       </div>
       {/* <Functionalities /> */}
-      {/* <OurStory /> */}
+      <OurStory />
       {/* <Clients /> */}
       {/* <OurTeam /> */}
       <CardEndOffer className="!px-0 !mt-0" />

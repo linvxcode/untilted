@@ -46,7 +46,7 @@ const Navbar = () => {
       }}
       className={clsx(
         scroll ? "backdrop-blur-sm bg-[#f6f5f2e3] border-[#bebebd69]" : " bg-transparent border-transparent",
-        `w-full  mx-auto  border-b-[1px]  max-w-[1500px]   py-5 px-5 2xl:rounded-3xl  lg:px-10 fixed top-0 z-[99]`
+        `w-full  mx-auto  border-b-[1px]  max-w-[1500px]   py-5 px-5 2xl:rounded-3xl  lg:px-10 fixed top-0 z-[999]`
       )}
     >
       <div className="flex flex-row justify-between items-center">

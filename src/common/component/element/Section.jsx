@@ -2,9 +2,9 @@
 import { motion } from "framer-motion";
 import React from "react";
 
-export default function Section({ label }) {
+export default function Section({ label, className }) {
   return (
-    <div className="w-full flex justify-center items-center relative pb-10  ">
+    <div className={`${className} w-full flex justify-center items-center relative pb-10  `}>
       <div className="text-2xl font-semibold flex items-center justify-center gap-5">
         <motion.div
           className="h-[3px]  bg-gradient-to-bl from-[#494949] to-transparent to-50%"
