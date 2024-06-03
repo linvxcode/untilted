@@ -26,33 +26,26 @@ export const LatestBlog = [
     {
         title: 'Mastering Frontend Magic with Creative Motion',
         slug: 'mastering-frontend-magic-with-creative-motion',
-        img: "https://images.unsplash.com/photo-1632373564121-2bd0b5abade7?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://images.unsplash.com/photo-1672080070747-9b28b4b403af?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         date: 'November, 2023',
         desc: 'Explore the principles of minimalism in web design and learn how to create clean, elegant, and effective digital experiences.',
         className: 'lg:w-[32%] w-full',
         content: content
-    }
+    },
+    
 ]
 
 export const BlogItem = [
     {
-        title: 'Mastering Frontend Magic with Creative Motion',
-        slug: 'mastering-frontend-magic-with-creative-motion',
-        img: "https://images.unsplash.com/photo-1632373564121-2bd0b5abade7?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        title: 'Future Financial',
+        slug: 'future-financial',
+        img: "https://images.unsplash.com/photo-1672080070747-9b28b4b403af?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         date: 'November, 2023',
         desc: 'Explore the principles of minimalism in web design and learn how to create clean, elegant, and effective digital experiences.',
         // className: 'lg:w-[32%] w-full',
         content: content
     },
-    {
-        title: 'Mastering Minimalism in Web Design',
-        slug: 'mastering-minimalism-in-web-design',
-        img: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        date: 'February 15, 2024',
-        desc: 'Explore the principles of minimalism in web design and learn how to create clean, elegant, and effective digital experiences.',
-        className: 'lg:w-[32%] w-full',
-        content: content
-    },
+    
     {
         title: 'The Psychology of Color in Branding',
         slug: 'the-psychology-of-color-in-branding',
@@ -80,24 +73,7 @@ export const BlogItem = [
         className: 'lg:w-[32%] w-full',
         content: content
     },
-    {
-        title: 'The Art of User Experience Design',
-        slug: 'the-art-of-user-experience-design',
-        img: "https://images.unsplash.com/photo-1632201717104-b7c59bc026ee?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        date: 'June 18, 2024',
-        desc: 'Delve into the principles of user experience (UX) design and discover how to create intuitive, user-friendly interfaces that keep users engaged and satisfied.',
-        className: 'lg:w-[32%] w-full',
-        content: content
-    },
-    {
-        title: 'Harnessing the Power of Illustration in Design',
-        slug: 'harnessing-the-power-of-illustration-in-design',
-        img: "https://images.unsplash.com/photo-1635352722201-658b98c5b501?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        date: 'July 9, 2024',
-        desc: 'Discover the versatility of illustration in design and learn how to incorporate hand-drawn elements into your projects to add personality and charm.',
-        className: 'lg:w-[32%] w-full',
-        content: content
-    },
+    
 ]
 
 

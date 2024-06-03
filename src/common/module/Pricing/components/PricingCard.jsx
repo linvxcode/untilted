@@ -62,14 +62,17 @@ export default function PricingCard({ item }) {
           <motion.div
             key={index}
             className={clsx(items.className, `flex flex-col p-10  `)}
-            style={!isDekstop && items.style}
-            initial={items.initial}
-            whileInView={items.whileInView}
+            style={items.style}
+            initial={!isDekstop ? items.initial : {}}
+            whileInView={!isDekstop ? items.whileInView : {}}
             transition={{
               type: "tween",
               delay: index * 0.1,
               ease: [0.8, 0.2, 0, 1],
               duration: 2,
+            }}
+            viewport={{
+              once:true
             }}
           >
             <h1>{items.plan}</h1>

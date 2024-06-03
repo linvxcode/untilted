@@ -1,11 +1,10 @@
 import React from "react";
 import { useMobile } from "@/common/hooks/useMobile";
 
-
-
 export function Chart3Backup() {
-    const isMobile = useMobile()
-    {isMobile &&  (
+  const isMobile = useMobile();
+  {
+    isMobile && (
       <div className="w-full md:hidden">
         <svg
           width="100%"
@@ -249,21 +248,22 @@ export function Chart3Backup() {
           </defs>
         </svg>
       </div>
-    )};
+    );
   }
-
+}
 
 export function Chart4Backup() {
-    const isMobile = useMobile()
-    const variant = {
-      initial: {
-        pathLength: 0,
-      },
-      whileInView: {
-        pathLength: 1,
-      },
-    };
-    {isMobile &&  (
+  const isMobile = useMobile();
+  const variant = {
+    initial: {
+      pathLength: 0,
+    },
+    whileInView: {
+      pathLength: 1,
+    },
+  };
+  {
+    isMobile && (
       <div className="w-full ">
         <svg
           width="100%"
@@ -375,7 +375,12 @@ export function Chart4Backup() {
               strokeDasharray="0 1 14 0 1 14"
             />
             <g filter="url(#filter1_d_5_33)">
-              <circle cx="299" cy="130" r="20" fill="url(#paint3_linear_5_33)" />
+              <circle
+                cx="299"
+                cy="130"
+                r="20"
+                fill="url(#paint3_linear_5_33)"
+              />
               <circle cx="299" cy="130" r="16" stroke="white" strokeWidth="8" />
             </g>
           </g>
@@ -499,5 +504,77 @@ export function Chart4Backup() {
           </defs>
         </svg>
       </div>
-    )};
+    );
   }
+}
+
+export function Abs() {
+  return (
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+        <g transform="translate(9 1.426)">
+          <g transform="translate(95.426 0)">
+            <g>
+              <path
+                d="M 102.143 142.574 C 102.143 120.245 120.245 102.143 142.574 102.143 C 164.903 102.143 183.005 120.245 183.005 142.574 C 183.005 164.903 164.903 183.005 142.574 183.005 C 120.245 183.005 102.143 164.903 102.143 142.574 Z"
+                fill="transparent"
+                strokeWidth="0.851"
+                stroke="rgb(0,0,0)"
+                strokeMiterlimit="10"
+                strokeDasharray=""
+              ></path>
+              <path
+                d="M 102.143 142.574 C 102.143 120.245 120.245 102.143 142.574 102.143 C 164.903 102.143 183.005 120.245 183.005 142.574 C 183.005 164.903 164.903 183.005 142.574 183.005 C 120.245 183.005 102.143 164.903 102.143 142.574 Z"
+                fill="transparent"
+                strokeWidth="0.851"
+                stroke="rgb(0,0,0)"
+                strokeMiterlimit="10"
+                strokeDasharray=""
+              ></path>
+              <path
+                d="M 81.714 142.574 C 81.714 108.962 108.962 81.714 142.574 81.714 C 176.186 81.714 203.434 108.962 203.434 142.574 C 203.434 176.186 176.186 203.434 142.574 203.434 C 108.962 203.434 81.714 176.186 81.714 142.574 Z"
+                fill="transparent"
+                strokeWidth="0.851"
+                stroke="rgb(0,0,0)"
+                strokeMiterlimit="10"
+                strokeDasharray=""
+              ></path>
+              <path
+                d="M 61.285 142.574 C 61.285 97.679 97.679 61.285 142.574 61.285 C 187.469 61.285 223.863 97.679 223.863 142.574 C 223.863 187.469 187.469 223.863 142.574 223.863 C 97.679 223.863 61.285 187.469 61.285 142.574 Z"
+                fill="transparent"
+                strokeWidth="0.851"
+                stroke="rgb(0,0,0)"
+                strokeMiterlimit="10"
+                strokeDasharray=""
+              ></path>
+              <path
+                d="M 40.857 142.574 C 40.857 86.397 86.397 40.857 142.574 40.857 C 198.751 40.857 244.291 86.397 244.291 142.574 C 244.291 198.751 198.751 244.291 142.574 244.291 C 86.397 244.291 40.857 198.751 40.857 142.574 Z"
+                fill="transparent"
+                strokeWidth="0.851"
+                stroke="rgb(0,0,0)"
+                strokeMiterlimit="10"
+                strokeDasharray=""
+              ></path>
+              <path
+                d="M 20.428 142.574 C 20.428 75.115 75.115 20.428 142.574 20.428 C 210.033 20.428 264.72 75.115 264.72 142.574 C 264.72 210.033 210.033 264.72 142.574 264.72 C 75.115 264.72 20.428 210.033 20.428 142.574 Z"
+                fill="transparent"
+                strokeWidth="0.851"
+                stroke="rgb(0,0,0)"
+                strokeMiterlimit="10"
+                strokeDasharray=""
+              ></path>
+              <path
+                d="M 0 142.574 C 0 63.833 63.833 0 142.574 0 C 221.315 0 285.148 63.833 285.148 142.574 C 285.148 221.315 221.315 285.148 142.574 285.148 C 63.833 285.148 0 221.315 0 142.574 Z"
+                fill="transparent"
+                strokeWidth="0.851"
+                stroke="rgb(0,0,0)"
+                strokeMiterlimit="10"
+                strokeDasharray=""
+              ></path>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+  );
+}

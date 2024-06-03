@@ -81,7 +81,7 @@ export default function Hero() {
             initial={{
               width: "0px",
             }}
-            animate={{
+            whileInView={{
               width: "100%",
             }}
             transition={{
@@ -89,6 +89,9 @@ export default function Hero() {
               type: "tween",
               ease: [0.8, 0.2, 0, 1],
               duration: 1.5,
+            }}
+            viewport={{
+              once:true
             }}
             
           >

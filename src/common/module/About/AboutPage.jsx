@@ -45,7 +45,7 @@ export default function AboutPage() {
         </div>
         <div className="basis-[80%]">
           <div className="w-full flex flex-col gap-5  ">
-            <div className="bg-[#E8E8E8] px-5 py-5 rounded-3xl h-[270px]">
+            <div className="bg-[#E8E8E8] px-5 py-5 rounded-3xl h-auto lg:h-[270px]">
               <div className="w-full pb-5">
                 <Image
                   className="w-[50px] h-auto "
@@ -64,7 +64,7 @@ export default function AboutPage() {
               </h1>
             </div>
 
-            <div className="h-[308px]  px-5 py-10 rounded-3xl relative overflow-hidden">
+            <div className="h-auto lg:h-[308px]  px-5 py-10 rounded-3xl relative overflow-hidden">
               <div className="w-full pb-5">
                 <Image
                   className="w-[50px] h-auto "
@@ -77,7 +77,7 @@ export default function AboutPage() {
               </div>
               <div className="absolute inset-0 w-full z-[-9]">
                 <Image
-                  className="w-full h-[350px] opacity-90 "
+                  className="w-full h-[390px] opacity-90 "
                   src="https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Fusion"
                   height={400}
