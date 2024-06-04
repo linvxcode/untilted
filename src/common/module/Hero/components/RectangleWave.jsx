@@ -6,7 +6,7 @@ import React from "react";
 export default function RectangleWave() {
   const isMobile = useMobile();
   return (
-    <div className="w-full absolute inset-0 lg:top-[-150px] ] z-[-99] ">
+    <div className="w-full absolute inset-0 lg:top-[-150px] ] z-[-9999] ">
       <div>
         <motion.svg
           width="100%"
@@ -29,7 +29,7 @@ export default function RectangleWave() {
               duration: 2,
             }}
             viewport={{once: true}}
-            className="fill-[#edededb8] "
+            className="fill-[#e7e6e6] "
             d="M1584.25 633.191C1587.53 634.245 1589.25 637.838 1588.02 641.054L1508.75 847.554C1507.5 850.801 1503.77 852.311 1500.62 850.842L-187.52 64.0969L1584.25 633.191Z"
           />
           <motion.path

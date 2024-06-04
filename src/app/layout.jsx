@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" >
-      <body className={plusj.className}>
+      <body className={`${plusj.className} `}>
         <LenisProvider>
           <div className="w-full flex justify-center items-center">
             <Navbar />

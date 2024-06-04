@@ -3,8 +3,8 @@ import React from 'react'
 
 
 export const metadata = {
-  title: "About - Fusion",
-  description: "Fusion SaaS Landing Page",
+  title: "About - Untilted",
+  description: "Untilted SaaS Landing Page",
 };
 
 export default function page() {

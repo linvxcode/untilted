@@ -44,7 +44,7 @@ const ContactForm = () => {
 
   return (
     <ComponentTransition className="w-full">
-    <form onSubmit={handleSubmit} className="w-full mt-5 rounded-3xl px-5 lg:px-10 py-10 bg-gradient-to-b from-[#1F1F1F] to-[#181818]">
+    <form onSubmit={handleSubmit} className="w-full mt-5 rounded-3xl px-5 lg:px-10 py-10 bg-gradient-to-b from-[#9ccff8] to-[#F4F4F2]">
       <div className="w-full pb-10">
       <H1
         className=" !justify-start !text-4xl font-semibold text-start "
@@ -55,7 +55,7 @@ const ContactForm = () => {
       <div className="flex flex-col flex-grow gap-5 ">
         <div className="flex flex-col md:flex-row gap-5">
           <input
-            className="w-full py-2 px-3 bg-[#7D7F78] rounded-md   placeholder-[#cccccc] text-[#FFFFF7]  focus:outline-none "
+            className="w-full py-2 px-3 bg-[#E8E8E8] rounded-md   placeholder-[#aaaaaa] text-[#0c0c0c]  focus:outline-none "
             type="text"
             placeholder="Name"
             name="name"
@@ -64,7 +64,7 @@ const ContactForm = () => {
             required
           />
           <input
-            className="w-full py-2 px-3 rounded-md   bg-[#7D7F78] placeholder-[#cccccc] text-[#FFFFF7]   focus:outline-none"
+            className="w-full py-2 px-3 rounded-md   bg-[#E8E8E8] placeholder-[#aaaaaa] text-[#0c0c0c]   focus:outline-none"
             type="email"
             placeholder="Email"
             name="email"
@@ -74,7 +74,7 @@ const ContactForm = () => {
           />
         </div>
         <textarea
-          className="w-full py-2 px-3 rounded-md   bg-[#7D7F78] placeholder-[#cccccc] text-[#FFFFF7]  focus:outline-none "
+          className="w-full py-2 px-3 rounded-md   bg-[#E8E8E8] placeholder-[#aaaaaa] text-[#0c0c0c]  focus:outline-none "
           rows={10}
           placeholder="Message"
           name="message"
@@ -82,10 +82,10 @@ const ContactForm = () => {
           onChange={(e) => setMessage(e.target.value)}
           required
         />
-
+        <div className="flex justify-center">
         <button
           className={clsx(
-            "py-2.5 bg-[#FFFFF7]  text-black w-full rounded-2xl  hover:bg-[#7D7F78] hover:scale-[101%] duration-300 transition-all"
+            "py-2.5 bg-[#9ccff8] px-5 text-black w-auto rounded-2xl  hover:bg-[#FFFFF7] hover:scale-[101%] duration-300 transition-all"
           )}
           type="submit"
           icon={<></>}
@@ -93,6 +93,8 @@ const ContactForm = () => {
         >
           {isLoading ? "Sending Message..." : "Send Message"}
         </button>
+        </div>
+
       </div>
       <Toaster position="top-center" reverseOrder={false} />
     </form>

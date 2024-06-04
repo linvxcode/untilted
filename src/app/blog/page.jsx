@@ -2,8 +2,8 @@ import BlogPage from '@/common/module/Blog/components/BlogPage'
 import React from 'react'
 
 export const metadata = {
-  title: "Blog - Fusion",
-  description: "Fusion SaaS Landing Page",
+  title: "Blog - Untilted",
+  description: "Untilted SaaS Landing Page",
 };
 
 

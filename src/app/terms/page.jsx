@@ -2,8 +2,8 @@ import TermsPage from '@/common/module/Terms/TermsPage'
 import React from 'react'
 
 export const metadata = {
-  title: "Terms - Fusion",
-  description: "Fusion SaaS Landing Page",
+  title: "Terms - Untilted",
+  description: "Untilted SaaS Landing Page",
 };
 
 export default function page() {

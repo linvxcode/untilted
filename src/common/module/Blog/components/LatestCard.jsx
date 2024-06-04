@@ -13,7 +13,7 @@ export default function LatestCard() {
       <ComponentTransition
         // key={index}
         className={clsx(
-          ` group lg:w-[40%] flex  justify-center items-center h-[600px]  relative overflow-hidden object-cover rounded-[40px]`
+          ` group lg:w-[40%] flex  justify-center items-center h-[420px] md:h-[600px]  relative overflow-hidden object-cover rounded-[40px]`
         )}
       >
         <Link href="/blog/future-financial" className="w-full ">
@@ -25,8 +25,8 @@ export default function LatestCard() {
             height={800}
             priority
           />
-          <div className="w-full flex  mt-[200px]">
-            <div className="relative top-[150px] flex w-auto flex-col">
+          <div className="w-full flex  md:mt-[200px]">
+            <div className="relative top-[100px] md:top-[150px] flex w-auto flex-col">
               <Image
                 className="w-[60px] top-[-30px] left-0 h-auto  absolute inset-0 object-cover "
                 src="/Aset/Vector 2.svg"
@@ -41,7 +41,7 @@ export default function LatestCard() {
               </h1>
             </div>
           </div>
-          <div className="relative top-[150px] flex">
+          <div className="relative top-[100px] md:top-[150px] flex ">
             <Image
               className="w-[60px] top-[-30px] left-[218px] h-auto  absolute inset-0 object-cover "
               src="/Aset/Vector 2.svg"
@@ -50,7 +50,7 @@ export default function LatestCard() {
               height={800}
               priority
             />
-            <h1 className="text-sm bg-[#F4F4F2] rounded-tr-3xl px-5 pt-2 pb-[74px] w-[70%] ">
+            <h1 className="text-sm bg-[#F4F4F2] rounded-tr-3xl px-5 pt-2 pb-[74px] md:w-[70%] line-clamp-3 overflow-hidden">
               Seize the Opportunity with Our Crypto Offer. Don`t miss out on an
               exclusive chance to elevate your portfolio with our special crypto
               offer

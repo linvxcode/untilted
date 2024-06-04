@@ -2,8 +2,8 @@ import FeaturePage from '@/common/module/Feature/FeaturePage'
 import React from 'react'
 
 export const metadata = {
-  title: "Features - Fusion",
-  description: "Fusion SaaS Landing Page",
+  title: "Features - Untilted",
+  description: "Untilted SaaS Landing Page",
 };
 
 export default function page() {

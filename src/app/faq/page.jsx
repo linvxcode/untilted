@@ -2,8 +2,8 @@ import FaqPage from '@/common/module/Faq/components/FaqPage'
 import React from 'react'
 
 export const metadata = {
-  title: "Faq - Fusion",
-  description: "Fusion SaaS Landing Page",
+  title: "Faq - Untilted",
+  description: "Untilted SaaS Landing Page",
 };
 
 export default function page() {
