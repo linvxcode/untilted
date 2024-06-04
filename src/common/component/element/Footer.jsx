@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="w-full -mx-6 lg:w-2/5 flex px-6 lg:justify-center ">
               {/* <Logo h={60} w={60} /> */}
               <h1 className="text-xl font-semibold">
-                Fusion V2
+                Untilted
               </h1>
             </div>
 

@@ -20,7 +20,7 @@ export default function Hero() {
   return (
     <div className="h-auto max-w-[1500px] relative flex flex-col justify-start px-5 lg:px-10  w-full overflow-hidden ">
       {/* <TopGradient /> */}
-      <RectangleWave />
+      {/* <RectangleWave /> */}
 
       <div className="max-lg:hidden glowbg w-[100%] md:w-[300px] h-[200px] absolute z-[-99] top-[200px] left-[-100px]"></div>
 
