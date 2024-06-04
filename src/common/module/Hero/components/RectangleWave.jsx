@@ -26,7 +26,7 @@ export default function RectangleWave() {
         <div className="w-full relative ">
           <Image
             className="w-full h-[750px] object-cover"
-            src="/Aset/Light Shadow 6.png"
+            src="/Aset/Shadow.png"
             alt="Fusion"
             height={400}
             width={400}
