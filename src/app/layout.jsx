@@ -14,18 +14,20 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" >
-      <body className={`${plusj.className} relative overflow-x-hidden`}>
-        <LenisProvider>
-          <div className="w-full flex justify-center items-center">
-            <Navbar />
-          </div>
-          <RectangleWave />
-          {children}
-          <div className="w-full flex justify-center items-center">
-            <Footer />
-          </div>
-        </LenisProvider>
+    <html lang="en">
+      <body className={`${plusj.className} `}>
+        <div className="relative overflow-hidden">
+          <LenisProvider>
+            <div className="w-full flex justify-center items-center">
+              <Navbar />
+            </div>
+            <RectangleWave />
+            {children}
+            <div className="w-full flex justify-center items-center">
+              <Footer />
+            </div>
+          </LenisProvider>
+        </div>
       </body>
     </html>
   );

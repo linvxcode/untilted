@@ -33,19 +33,21 @@ const Navbar = () => {
   return (
     <motion.div
       initial={{
-        y: -100
+        y: -100,
       }}
       animate={{
-        y: 0
+        y: 0,
       }}
       transition={{
-        delay:1,
+        delay: 1,
         type: "tween",
         ease: [0.8, 0.2, 0, 1],
         duration: 2,
       }}
       className={clsx(
-        scroll ? "backdrop-blur-sm bg-[#f6f5f2e3] border-[#bebebd69]" : " bg-transparent border-transparent",
+        scroll
+          ? "backdrop-blur-sm bg-[#f6f5f2e3] border-[#bebebd69]"
+          : " bg-transparent border-transparent",
         `w-full  mx-auto  border-b-[1px]  max-w-[1500px]   py-5 px-5 2xl:rounded-3xl  lg:px-10 fixed top-0 z-[999]`
       )}
     >
@@ -81,10 +83,9 @@ const Navbar = () => {
 
         <div className="lg:flex hidden  w-full items-end justify-end">
           <Link href="/" className=" flex justify-end">
-            <ButtonViewAll
-              title="Get This Template"
-              className="hover:!bg-[#EEEEEE] transition-colors duration-300 overflow-hidden !bg-transparent outline outline-1 outline-[#494949]  w-auto !py-2"
-            />
+            <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-full border border-[#9ccff8]  bg-[linear-gradient(110deg,#02020200,45%,#9ccff8,55%,#02020200)] bg-[length:200%_100%] px-6 font-medium text-[#696969] transition-colors ">
+              Get This Template
+            </button>
           </Link>
         </div>
       </div>

@@ -7,11 +7,8 @@ import OurStory from "./components/OurStory";
 import Clients from "./components/Clients";
 import OurTeam from "./components/OurTeam";
 import CardEndOffer from "@/common/component/element/CardEndOffer";
-import SectionText from "@/common/component/element/SectionText";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
-import FusionApp from "../Hero/components/FusionApp";
-import { CiStar } from "react-icons/ci";
-import { PiTelevisionSimpleLight } from "react-icons/pi";
+import UntiltedDashboard from "../Hero/components/UntiltedDashboard";
 import Section from "@/common/component/element/Section";
 
 export default function AboutPage() {
@@ -31,7 +28,7 @@ export default function AboutPage() {
       </div>
       <div className="w-full lg:flex-row flex-col flex pt-10 gap-5">
         <div className="w-full h-[400px] lg:h-[600px] overflow-hidden lg:pl-10 pt-20 lg:pt-5  relative rounded-2xl">
-          <FusionApp />
+          <UntiltedDashboard />
           <div className="absolute inset-0 w-full z-[-9]">
             <Image
               className="w-full h-[600px] "
@@ -77,8 +74,8 @@ export default function AboutPage() {
               </div>
               <div className="absolute inset-0 w-full z-[-9]">
                 <Image
-                  className="w-full h-[390px] opacity-90 "
-                  src="https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  className="w-full h-[450px] lg:h-[390px] opacity-90 "
+                  src="https://images.unsplash.com/photo-1604339454148-1c23f0b5d156?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Fusion"
                   height={400}
                   width={400}

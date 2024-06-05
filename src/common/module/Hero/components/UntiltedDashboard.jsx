@@ -5,14 +5,14 @@ import { useParallax } from "@/common/hooks/useParallax";
 import { motion, useScroll } from "framer-motion";
 import React from "react";
 
-export default function FusionApp() {
+export default function UntiltedDashboard() {
   const { scrollY } = useScroll();
   const { TranslateX, TranslateY } = useParallax(scrollY);
   const isDekstop = useDekstop();
   return (
     <div>
       <motion.div
-        className="w-full flex justify-startt items-start relative  overflow-hidden"
+        className="w-full flex justify-start items-start relative  overflow-hidden"
         style={{
           translateY: TranslateY,
           // translateX: TranslateX,
@@ -27,7 +27,7 @@ export default function FusionApp() {
         
         >
           <Image
-            className="w-full h-auto rounded-2xl absolute inset-0 left-[90px] top-[90px] scale-[1.3]"
+            className="w-full h-auto rounded-2xl absolute inset-0 left-[90px] md:left-[250px] lg:left-[90px] top-[90px] md:top-[190px] lg:top-[90px] scale-[1.3]"
             src="/Aset/UntiltedDashboard.png"
             alt="Fusion"
             height={900}

@@ -53,19 +53,34 @@ export default function CardFeature() {
           <Text texts="Enhance your financial acumen with our user-friendly tools designed specifically for our Crypto offerings" />
 
           <h1>
-            Level up your financial know-how effortlessly with our specialized
-            tools, exclusively crafted to maximize your NFT investment potential
+            Enhance your financial acumen with our state-of-the-art,
+            user-friendly tools designed specifically for our Crypto offerings.
+            These tools are meticulously crafted to provide you with the
+            insights, analytics, and functionalities necessary to navigate the
+            dynamic world of cryptocurrencies confidently. Whether you`re a
+            novice investor or a seasoned trader, our suite of crypto tools is
+            tailored to meet your needs, ensuring you have the best resources at
+            your fingertips to make informed financial decisions.
           </h1>
         </div>
       </div>
 
       <div className="flex lg:flex-row flex-col-reverse w-full gap-10">
         <div className="w-full">
-          <Text texts="Enhance your financial acumen with our user-friendly tools designed specifically for our Crypto offerings" />
+          <Text texts="Real-Time Notifications: Keep Users Informed and Engaged" />
 
           <h1>
-            Level up your financial know-how effortlessly with our specialized
-            tools, exclusively crafted to maximize your NFT investment potential
+            The Notifications feature is meticulously designed to provide users
+            with timely and visually engaging alerts about important updates,
+            messages, or events. This feature ensures that users stay informed
+            and never miss critical information. The notification icon itself is
+            a testament to modern design principles, featuring intricate details
+            and polished aesthetics. It is crafted to seamlessly integrate into
+            any user interface while ensuring it stands out prominently,
+            capturing the user`s attention immediately. By combining
+            functionality with superior visual appeal, the Notifications feature
+            enhances the overall user experience, making interactions smoother
+            and more intuitive.
           </h1>
         </div>
         <motion.div
@@ -152,11 +167,18 @@ export default function CardFeature() {
           </div>
         </motion.div>
         <div className="w-full">
-          <Text texts="Enhance your financial acumen with our user-friendly tools designed specifically for our Crypto offerings" />
+          <Text texts="Empower Your Decisions with Our Sales Analytics Chart" />
 
           <h1>
-            Level up your financial know-how effortlessly with our specialized
-            tools, exclusively crafted to maximize your NFT investment potential
+            The Sales Analytics Chart feature provides a comprehensive and
+            detailed visualization of sales data, empowering users to analyze
+            trends, patterns, and performance metrics over various time periods.
+            This user-friendly tool is meticulously designed to present complex
+            and multifaceted sales information in a clear, intuitive, and
+            accessible manner. By transforming raw data into visually compelling
+            and easily interpretable charts, the Sales Analytics Chart
+            facilitates informed, data-driven decision-making for businesses and
+            individuals alike.
           </h1>
         </div>
       </div>
