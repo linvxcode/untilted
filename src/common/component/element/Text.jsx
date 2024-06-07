@@ -6,9 +6,11 @@ export default function Text({className, texts, style}) {
   const TextAnim = {
     initial: {
       y: 147,
+      x:100,
     },
     animate: {
       y: 0,
+      x:0
     },
   };
 
@@ -19,12 +21,12 @@ export default function Text({className, texts, style}) {
         key={index}
         initial="initial"
         whileInView="animate"
-        className={`overflow-hidden inline-block`}
+        className={`overflow-hidden inline-block `}
         viewport={{once:true}}
         style={style}
         >
           <motion.h1
-            className={`${className} inline-block leading-[0.9em] font-bold bg-clip-text text-transparent bg-gradient-to-br from-[#181818]  to-[#a5a5a5] text-2xl lg:text-4xl overflow-hidden `}
+            className={`${className} inline-block !leading-[0.9em] text-[#494949] font-bold  text-2xl lg:text-4xl overflow-hidden `}
             variants={TextAnim}
             transition={{
               type: "tween",

@@ -18,7 +18,7 @@ export default function CardIcon() {
   };
 
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 w-full gap-5 justify-center items-center">
+    <div className="grid md:grid-cols-2 w-full gap-5 justify-center items-center lg:px-10">
       {FeatureCardItem.map((item, index) => (
         <ComponentTransition
           delay={index * 0.2}
@@ -26,7 +26,7 @@ export default function CardIcon() {
           onMouseEnter={() => handleCardHover(index)}
           onMouseLeave={handleCardLeave}
           className={clsx(
-            ` flex h-[500px] relative flex-col items-center w-full gap-5 p-10 bg-[#E8E8E8] rounded-3xl  overflow-hidden group`
+            ` flex h-[350px] relative flex-col items-center w-full gap-5 p-10 bg-[#E8E8E8] rounded-3xl  overflow-hidden group`
           )}
         >
           <div className="w-full flex justify-around relative ">

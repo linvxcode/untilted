@@ -11,9 +11,9 @@ export default function H1({ title= '', className= '',textColor= 'normal',delay 
         whileInView={{ y: "0%" }}
         transition={{
           delay: delay,
-          type: "spring",
-          // ease: [0.8, 0.2, 0, 1],
-          // duration: 1.5,
+          type: "tween",
+          ease: [0.8, 0.2, 0, 1],
+          duration: 1.5,
         }}
         viewport={{ once: true }}
         className={clsx(

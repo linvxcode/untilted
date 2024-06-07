@@ -23,11 +23,11 @@ export default function UntiltedDashboard() {
           // rotateY: RotateY,
         }}
       >
-        <motion.div className="h-[600px] w-full relative "
+        <motion.div className="h-[600px] lg:h-[570px] w-full relative backdrop-blur-md flex justify-start items-start lg:top-[20px] rounded-3xl"
         
         >
           <Image
-            className="w-full h-auto rounded-2xl absolute inset-0 left-[90px] md:left-[250px] lg:left-[90px] top-[90px] md:top-[190px] lg:top-[90px] scale-[1.3]"
+            className="w-full opacity-80  h-auto rounded-2xl absolute inset-0 left-[90px] md:left-[250px] lg:left-[100px] top-[90px] md:top-[190px] lg:top-[70px] scale-[1.3]"
             src="/Aset/UntiltedDashboard.png"
             alt="Fusion"
             height={900}

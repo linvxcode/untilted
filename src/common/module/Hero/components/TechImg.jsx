@@ -37,9 +37,9 @@ const TechImg = () => {
       <div className='flex overflow-hidden w-full justify-start items-start'>
         <div className='relative flex flex-row flex-nowrap  justify-center py-2 w-full overflow-hidden'>
           {sliders}
-          <div className='w-full inset-0 bg-gradient-to-l from-[#F4F4F2] from-0% to-transparent to-5% absolute'>
+          <div className='w-full inset-0 bg-gradient-to-l from-[#F4F4F2] from-0% to-[#f4f4f200] to-5% absolute'>
           </div>
-          <div className='w-full inset-0 bg-gradient-to-r from-[#F4F4F2] from-0% to-transparent to-5% absolute'>
+          <div className='w-full inset-0 bg-gradient-to-r from-[#F4F4F2] from-0% to-[#f4f4f200] to-5% absolute'>
           </div>
         </div>
       </div>

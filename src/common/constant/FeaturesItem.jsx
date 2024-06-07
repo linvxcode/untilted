@@ -207,18 +207,63 @@ const size = 30
 
 export const FeatureCardItem = [
   {
-    title: 'Empowerment through Knowledge',
-    desc: "Our comprehensive resources and expert guidance ensure you understand the intricacies of the crypto market. We provide you with the tools and education needed to make informed decisions confidently.",
+    title: 'Real Time Market Tracking',
+    desc: "Stay updated with live market data, Monitor price movements and volume in real-time.",
     icon: <CiCloudOn size={size} />,
   },
   {
-    title: 'Innovative Technology',
-    desc: "Leverage cutting-edge technology that simplifies and secures your crypto investments. Our platform is designed to offer seamless, user-friendly experiences, whether you're a seasoned investor or just starting.",
+    title: 'Seamless Trading Integration',
+    desc: "Execute trades directly from the platform, Connect with leading exchanges for seamless trading.",
     icon: <CiCloudOn size={size} />,
   },
   {
-    title: 'Growth and Potential',
-    desc: "The crypto market is brimming with opportunities for exponential growth. Our strategic insights and robust analytics help you identify and capitalize on these opportunities, maximizing your returns and financial growth.",
+    title: 'Personalized Portfolio Management',
+    desc: "Create and manage your crypto portfolio effortlessly, Receive personalized insights and recommendations.",
     icon: <CiCloudOn size={size} />,
   },
+  {
+    title: 'Advanced Analytics',
+    desc: "Access comprehensive analytics tools, Gain insights into market trends and patterns.",
+    icon: <CiCloudOn size={size} />,
+  },
+  {
+    title: 'Enhanced Security Measures',
+    desc: "Benefit from robust security protocols, Protect your assets with encryption and authentication.",
+    icon: <CiCloudOn size={size} />,
+  },
+  {
+    title: 'User-Friendly Interface',
+    desc: "Enjoy a sleek and intuitive interface, Navigate the platform with ease, regardless of experience level.",
+    icon: <CiCloudOn size={size} />,
+  },
+  // {
+  //   title: 'Customizable Alerts',
+  //   desc: "Set personalized alerts for price changes and market movements, Stay informed with notifications tailored to your preferences.",
+  //   icon: <CiCloudOn size={size} />,
+  // },
+  // {
+  //   title: 'Multi-Platform Accessibility',
+  //   desc: "Access CryptoTrack Pro from desktop, mobile, or tablet, Seamlessly sync your account across multiple devices.",
+  //   icon: <CiCloudOn size={size} />,
+  // },
+  // {
+  //   title: 'Dedicated Customer Support',
+  //   desc: "Receive prompt assistance from our dedicated support team, Access resources, tutorials, and FAQs for additional guidance.",
+  //   icon: <CiCloudOn size={size} />,
+  // },
+  // {
+  //   title: 'Empowerment through Knowledge',
+  //   desc: "Our comprehensive resources and expert guidance ensure you understand the intricacies of the crypto market. We provide you with the tools and education needed to make informed decisions confidently.",
+  //   icon: <CiCloudOn size={size} />,
+  // },
+  // {
+  //   title: 'Innovative Technology',
+  //   desc: "Leverage cutting-edge technology that simplifies and secures your crypto investments. Our platform is designed to offer seamless, user-friendly experiences, whether you're a seasoned investor or just starting.",
+  //   icon: <CiCloudOn size={size} />,
+  // },
+  // {
+  //   title: 'Growth and Potential',
+  //   desc: "The crypto market is brimming with opportunities for exponential growth. Our strategic insights and robust analytics help you identify and capitalize on these opportunities, maximizing your returns and financial growth.",
+  //   icon: <CiCloudOn size={size} />,
+  // },
 ]

@@ -19,17 +19,17 @@ export default function Feature() {
             title="Featured"
           />
           <H1
-            title="Discover the Power of Our Features"
+            title="Feature that make a difference."
             className="!text-2xl lg:!text-5xl w-full lg:w-[40%] font-semibold !text-center justify-center items-center"
             textColor="normal"
           />
           <H1
-            title="Open a full-featured account in with virtual cards in less than 5 minutes."
+            title="We`re engineered features that will actually make a difference "
             className="!text-sm lg:!text-base w-full !mt-5 !text-center justify-center items-center"
             textColor="opacity"
           />
-          <div className="w-full">
-            <CardFeature />
+          <div className="w-full mt-5">
+            {/* <CardFeature /> */}
             <CardIcon />
             {/* <Card item={FeaturesItem} /> */}
             {/* <CardVariantBig /> */}
