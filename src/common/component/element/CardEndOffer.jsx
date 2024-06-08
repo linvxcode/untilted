@@ -42,26 +42,9 @@ export default function CardEndOffer({ className }) {
             textColor="white"
           />
           <div className="w-full relative gap-5 flex justify-start items-center">
-            <div className=" relative">
-              <Image
-                className="w-[150px] h-auto "
-                src="/google-play.svg"
-                alt="Fusion"
-                height={200}
-                width={200}
-                priority
-              />
-            </div>
-            <div className=" relative">
-              <Image
-                className="w-[150px] h-auto "
-                src="/app-store.svg"
-                alt="Fusion"
-                height={200}
-                width={200}
-                priority
-              />
-            </div>
+          <div>
+            <ButtonWarp label="Get Started" />
+          </div>
           </div>
         </div>
         <motion.div className="w-full flex justify-startt items-start relative max-lg:top-[-50px] overflow-hidden">

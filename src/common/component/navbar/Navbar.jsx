@@ -59,7 +59,7 @@ const Navbar = () => {
           >
             {/* <Logo w={25} h={25} /> */}
             <h1
-              className={` text-3xl text-[#696969] tracking-[-0.10em] font-semibold`}
+              className={` text-3xl text-[#696969] tracking-[-0.050em] font-semibold`}
             >
               Untilted
             </h1>
@@ -78,7 +78,7 @@ const Navbar = () => {
         </div>
 
         <div className="lg:hidden flex  items-center">
-          <NavMobile open={open} handleOpen={handleOpen} close={close} />
+          <NavMobile open={open} handleOpen={handleOpen} close={close}  />
         </div>
 
         <div className="lg:flex hidden  w-full items-end justify-end">

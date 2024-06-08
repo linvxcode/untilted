@@ -5,7 +5,7 @@ import NavigationMenuMobile from "./NavigationMenuMobile";
 const NavMobile = ({ open, handleOpen, close }) => {
   return (
     <>
-      <label className={`hamburger relative z-[999] ${open ? "open" : ""}`}>
+      <label className={`hamburger cursor-pointer relative z-[999] ${open ? "open" : ""}`}>
         <input
           type="checkbox"
           className="inputToogle hidden"
@@ -19,12 +19,12 @@ const NavMobile = ({ open, handleOpen, close }) => {
           viewBox="0 0 150 19"
           fill="none"
         >
-          <line y1="1.5" x2="150" y2="1.5" className={clsx(open ? '!stroke-white  rotate-6' : '', `stroke-black  transition-all duration-300  `)} strokeWidth="3" />
-          <line y1="9.5" x2="150" y2="9.5" className={clsx(open ? 'stroke-white' : '', `stroke-black  transition-all duration-300 `)} strokeWidth="3" />
-          <line y1="17.5" x2="150" y2="17.5" className={clsx(open ? '!stroke-white -rotate-6' : '', `stroke-black  transition-all duration-300 `)} strokeWidth="3" />
+          <line y1="1.5" x2="150" y2="1.5" className={clsx(open ? '  rotate-6' : '', `stroke-black  transition-all duration-300  `)} strokeWidth="3" />
+          <line y1="9.5" x2="150" y2="9.5" className={clsx(open ? '' : '', `stroke-black  transition-all duration-300 `)} strokeWidth="3" />
+          <line y1="17.5" x2="150" y2="17.5" className={clsx(open ? ' -rotate-6' : '', `stroke-black  transition-all duration-300 `)} strokeWidth="3" />
         </svg>
       </label>
-      <NavigationMenuMobile open={open} close={close} />
+      <NavigationMenuMobile open={open} close={close}  />
     </>
   );
 };

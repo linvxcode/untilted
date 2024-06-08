@@ -3,6 +3,7 @@ import Faq from "@/common/module/Faq/Faq";
 import CardEndOffer from "@/common/component/element/CardEndOffer";
 import Feature from "@/common/module/Feature/Feature";
 import Product from "@/common/module/Product/Product";
+import Testimonials from "@/common/module/Testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Product />
       <Feature />
       <Faq />
+      <Testimonials />
       <CardEndOffer />
     </div>
   );

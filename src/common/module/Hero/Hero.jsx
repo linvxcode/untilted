@@ -82,7 +82,7 @@ export default function Hero() {
               once: true,
             }}
           >
-            <div className="w-full h-[400px] lg:h-[600px] overflow-hidden lg:pl-10 pt-20 lg:pt-5  relative rounded-2xl">
+            <div className="w-full h-[350px] lg:h-[600px] overflow-hidden lg:pl-10 pt-20 lg:pt-5  relative rounded-2xl">
               <UntiltedDashboard />
               <div className="absolute inset-0 w-full z-[-9]">
                 {/* <Image

@@ -5,21 +5,19 @@ import clsx from "clsx";
 import { useScroll } from "framer-motion";
 import React from "react";
 
-export default function TestimonialCard({item}) {
+export default function TestimonialCard({item, Slide}) {
   const {scrollY} = useScroll();
   const {x} = useTestiParallax(scrollY)
   return (
-    <div className="flex w-full max-lg:flex-col lg:w-max relative overflow-hidden gap-5 py-10 ">
+    <div className="flex w-full max-lg:flex-col lg:w-max relative overflow-hidden gap-5 pt-5 ">
       {item.map((items, index) => (
         <ComponentTransition
           delay={index * 0.1}
           key={index}
-          style={{
-            x
-          }}
+          style={Slide}
           className={clsx(
             items.className,
-            ` flex  gap-5 p-10 bg-gradient-to-b from-[#141414] to-[#141414] rounded-3xl border-[1px] border-[#262626] overflow-hidden`
+            ` w-full lg:w-[400px] lg:h-auto flex items-start justify-start flex-col  gap-5 p-10 bg-[#E8E8E8] rounded-3xl  overflow-hidden`
           )}
         >
           {items.icon && (

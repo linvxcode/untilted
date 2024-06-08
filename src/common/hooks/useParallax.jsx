@@ -41,13 +41,11 @@ export const useImageParallax = (scrollY) => {
 
 export const useTestiParallax = (scrollY) => {
   const isDekstop = useDekstop();
-  const xx = useTransform(scrollY, !isDekstop ? [5710, 6100] : [0, 0], !isDekstop ? [0, -1600] : [0, 0]);
+  const x = useTransform(scrollY, [5810, 7100], [0, -1600]);
+  const Revx = useTransform(scrollY,[5810, 7100], [-1600, 0]);
 
-  const x = useSpring(xx, {
-    duration: 2,
-    damping: 30,
-  });
-  return { x };
+
+  return { x, Revx };
 };
 
 export const useTeamParallax = (scrollY) => {
