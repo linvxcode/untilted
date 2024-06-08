@@ -28,7 +28,7 @@ export default function HeroText({ className, texts,style, ...other }) {
           viewport={{ once: true }}
         >
           <motion.h1
-            className={`${className} inline-block text-[#45474B] justify-start text-3xl md:text-4xl lg:!text-6xl  font-semibold text-start overflow-hidden `}
+            className={`${className} inline-block text-[#45474B] justify-start text-2xl md:text-4xl lg:!text-6xl font-medium lg:font-semibold text-start overflow-hidden `}
             variants={TextAnim}
             transition={{
               type: "tween",
