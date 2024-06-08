@@ -5,11 +5,11 @@ import clsx from "clsx";
 import { useScroll } from "framer-motion";
 import React from "react";
 
-export default function TestimonialCard({item, Slide}) {
+export default function TestimonialCard({item, Slide, className}) {
   const {scrollY} = useScroll();
   const {x} = useTestiParallax(scrollY)
   return (
-    <div className="flex w-full max-lg:flex-col lg:w-max relative overflow-hidden gap-5 pt-5 ">
+    <div className={`flex w-full max-lg:flex-col lg:w-max relative overflow-hidden gap-5 pt-5 ${className} `}>
       {item.map((items, index) => (
         <ComponentTransition
           delay={index * 0.1}

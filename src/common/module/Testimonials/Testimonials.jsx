@@ -25,7 +25,7 @@ export default function Testimonials() {
           />
         </div>
         <div className="w-full overflow-hidden relative ">
-          <TestimonialCard item={TestimonialItem} Slide={{x: x}} />
+          <TestimonialCard item={TestimonialItem} Slide={{x: x}} className='max-lg:hidden' />
           <TestimonialCard item={TestimonialItem} Slide={{x: Revx}} />
           <div className='w-full inset-0 bg-gradient-to-l from-[#F4F4F2] from-0% to-[#f4f4f200] to-5% absolute'>
           </div>
