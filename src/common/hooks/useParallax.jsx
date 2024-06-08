@@ -43,9 +43,10 @@ export const useTestiParallax = (scrollY) => {
   const isDekstop = useDekstop();
   const x = useTransform(scrollY, [5810, 7100], [0, -1600]);
   const Revx = useTransform(scrollY,[5810, 7100], [-1600, 0]);
+  const skewX = useTransform(scrollY, [5810, 7100], [0, 10])
 
 
-  return { x, Revx };
+  return { x, Revx,skewX };
 };
 
 export const useTeamParallax = (scrollY) => {

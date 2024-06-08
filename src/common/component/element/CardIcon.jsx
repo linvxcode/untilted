@@ -46,7 +46,7 @@ export default function CardIcon() {
           </div>
 
           <div className="w-full relative z-[9]">
-            <h1 className="text-3xl text-[#181818] text-center font-semibold pb-4">
+            <h1 className="text-xl lg:text-3xl text-[#181818] text-center font-medium lg:font-semibold pb-4">
               {item.title}
             </h1>
             <p className="text-sm text-[#7A7A7A] text-center">{item.desc}</p>

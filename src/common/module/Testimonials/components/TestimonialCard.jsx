@@ -1,23 +1,49 @@
 'use client'
 import ComponentTransition from "@/common/component/element/ComponentTransition";
+import { useDekstop } from "@/common/hooks/useDekstop";
 import { useTestiParallax } from "@/common/hooks/useParallax";
 import clsx from "clsx";
-import { useScroll } from "framer-motion";
-import React from "react";
+import { motion, useScroll } from "framer-motion";
+import React, { useEffect, useState } from "react";
 
 export default function TestimonialCard({item, Slide, className}) {
+  const isDekstop = useDekstop();
   const {scrollY} = useScroll();
   const {x} = useTestiParallax(scrollY)
+
+  const [isScrolling, setIsScrolling] = useState(false);
+
+  let scrollTimeout;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolling(true);
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        setIsScrolling(false);
+      }, 10); // Adjust the timeout value as per your requirement
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  
   return (
-    <div className={`flex w-full max-lg:flex-col lg:w-max relative overflow-hidden gap-5 pt-5 ${className} `}>
+    <div className={`flex w-max  relative overflow-hidden gap-5 pt-5 ${className} `}>
       {item.map((items, index) => (
-        <ComponentTransition
-          delay={index * 0.1}
+        <motion.div
+          // delay={index * 0.1}
           key={index}
+          animate={{
+            skewX: isScrolling ? 6 : 0
+          }}
           style={Slide}
           className={clsx(
             items.className,
-            ` w-full lg:w-[400px] lg:h-auto flex items-start justify-start flex-col  gap-5 p-10 bg-[#E8E8E8] rounded-3xl  overflow-hidden`
+            ` w-[400px] lg:h-auto flex items-start justify-start flex-col  gap-5 p-10 bg-[#E8E8E8] rounded-3xl  overflow-hidden`
           )}
         >
           {items.icon && (
@@ -36,7 +62,7 @@ export default function TestimonialCard({item, Slide, className}) {
             <h1 className="text-base text-[#7A7A7A]">{items.jobTitle}</h1>
           </div>
 
-        </ComponentTransition>
+        </motion.div>
       ))}
     </div>
   );

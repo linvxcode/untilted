@@ -59,7 +59,7 @@ const Navbar = () => {
           >
             {/* <Logo w={25} h={25} /> */}
             <h1
-              className={` text-3xl text-[#696969] tracking-[-0.050em] font-semibold`}
+              className={` text-3xl text-[#696969] tracking-normal lg:tracking-[-0.050em] font-medium lg:font-semibold`}
             >
               Untilted
             </h1>

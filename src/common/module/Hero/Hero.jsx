@@ -10,6 +10,7 @@ import SliderTechLeader from "./components/SliderTechLeader";
 import { motion } from "framer-motion";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
 import ButtonWarp from "@/common/component/element/ButtonWarp";
+
 // import HeroAbstract from "./components/HeroAbstract";
 
 const UntiltedDashboard = dynamic(
@@ -59,6 +60,8 @@ export default function Hero() {
             title="We've heard that exceeding our customers' expectations is beyond reach. Instead of reinventing the wheel, we've chosen to enhance it."
             textColor="normal"
           />
+
+
           <div>
             <ButtonWarp label="Get Started" />
           </div>

@@ -44,7 +44,7 @@ export default function Accordian({ Content, className }) {
               })}
             >
               <div className="relative flex justify-start w-full">
-              <h1 className="md:text-xl text-start text-base font-semibold">{item.title}</h1>
+              <h1 className="md:text-xl text-start text-base font-medium lg:font-semibold">{item.title}</h1>
               </div>
               <div className="relative flex justify-end w-full right-0">
                 <GoPlus
